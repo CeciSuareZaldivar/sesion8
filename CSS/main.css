@@ -43,22 +43,20 @@
 }
 
 footer {
-  display: flex;
-  flex-flow: row wrap;
   padding: 150px;
   color: grey;
   background-color: black;
   padding-top: 150px;
   font-family: Arial, sans-serif;
 }
-.footer-left{
+.footer-left {
   margin-right: 1.25cm;
   margin-bottom: 2cm;
 }
 #img-footer {
   height: 20px;
 }
-.footer ul{
+.footer ul {
   list-style: none;
   padding-left: 0;
 }
@@ -68,19 +66,8 @@ footer {
 .footer a {
   text-decoration: none;
 }
-
-.box a{
-  color: white;
-}
-.classTerminos {
+.foot {
   display: flex;
-  text-align: center;
-  justify-content: flex-start;
-  color: grey;
-  padding-top: 50px;
-}
-.terminos{
-  text-align:center;
 }
 .jNmUis {
   margin: 5px;
