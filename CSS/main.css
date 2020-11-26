@@ -1,0 +1,248 @@
+/** variables colores */
+/*@import './mixin';
+@import './herencia';*/
+.texto-seccion {
+  margin-top: 10%;
+  margin-bottom: 50px;
+}
+.texto-seccion h2 {
+  font-size: 48px;
+  font-weight: 900;
+  font-family: Helvetica;
+}
+.texto-seccion p {
+  font-size: 30px;
+  font-family: Helvetica;
+}
+.texto-seccion button {
+  font-size: 14px;
+  border-radius: 500px;
+  padding: 16px 48px 18px !important;
+  border: 2px solid gray;
+  color: gray;
+  background-color: white;
+  padding: 5px;
+  letter-spacing: 2px;
+  width: 300px;
+  font-weight: 600;
+  line-height: 1;
+}
+.texto-seccion button:hover {
+  background-color: gray;
+  color: white;
+}
+
+.tarjeta {
+  box-shadow: 5px 5px 20px gray;
+  margin: 10px 10px;
+  cursor: pointer;
+}
+.tarjeta:hover {
+  box-shadow: 10px 10px 20px gray;
+  border: 1px solid gray;
+}
+
+footer {
+  display: flex;
+  flex-flow: row wrap;
+  padding: 150px;
+  color: grey;
+  background-color: black;
+  padding-top: 150px;
+  font-family: Arial, sans-serif;
+}
+.footer-left{
+  margin-right: 1.25cm;
+  margin-bottom: 2cm;
+}
+#img-footer {
+  height: 20px;
+}
+.footer ul{
+  list-style: none;
+  padding-left: 0;
+}
+.footer li {
+  line-height: 2cm;
+}
+.footer a {
+  text-decoration: none;
+}
+.box a{
+  color: white;
+}
+.classTerminos {
+  display: flex;
+  text-align: center;
+  justify-content: flex-start;
+  color: grey;
+  padding-top: 50px;
+}
+.terminos{
+  text-align:center;
+}
+
+.jNmUis {
+  margin: 5px;
+}
+.card-plan {
+  height: 800px !important;
+}
+.border-boton {
+  -webkit-border-radius: 25px;
+  -moz-border-radius: 25px;
+  border-radius: 25px;
+  margin-bottom: 10px;
+}
+.notas-plan{
+  color: gray;
+  font-size: 12px;
+  margin-bottom: 50px;
+}
+.first-section{
+  height: 230px !important;
+}
+
+
+._container-enjoy{
+  background-color: #FF4632;
+  color: #000000;
+}
+._art-enjoy{
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+._mrg-t20{
+  margin-top: 20%;
+}
+._art-enjoy p{
+  margin: 14px 0 32px;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.05em;
+  font-weight: 500;
+}
+._art-enjoy h1{
+  padding: 0;
+  font-size: 64px;
+  line-height: 64px;
+  font-weight: 600;
+  letter-spacing: -0.04em;
+}
+._art-enjoy h2{
+  margin-top: 15px;
+  margin-bottom: 0px;
+  padding: 0;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+}
+._art-enjoy span{
+  font-size: 13px;
+  line-height: 16px;
+}
+._btn-free{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 17px 48px;
+  background-color: #000000;
+  color: #FFFFFF;
+  border: 0;
+  border-radius: 500px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+}
+._btn-free:hover{
+  background-color: #FFFFFF;
+}
+._container-listen{
+  background-color: #2D46B9;
+  color: #1ED760;
+}
+._art-listen{
+  padding-top: 70px;
+  padding-bottom: 40px;
+}
+._art-listen p{
+  margin-bottom: 32px;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+}
+._art-listen h1{
+  font-size: 64px;
+  line-height: 64px;
+  letter-spacing: -0.04em;
+  font-weight: 600;
+  margin-bottom: 32px;
+}
+._art-listen h2{
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+._btn-get-free{
+  padding: 16px 48px 18px;
+  background-color: #1ED760;
+  color: #2D46B9;
+  border: 0;
+  border-radius: 500px;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  line-height: 1;
+  text-align: center;
+  text-transform: uppercase;
+}
+._btn-get-free:hover{
+  background-color: #FFFFFF;
+  color: #2D46B9;
+}
+/* MEDIA QUERIES */
+@media(max-width: 992px){
+  ._container-enjoy, ._container-listen{
+      text-align: center;
+  }
+  ._art-enjoy, ._art-listen{
+      padding-top: 15%;
+      padding-bottom: 15%;
+  }
+}
+@media(max-width: 768px){
+  ._art-enjoy h1, ._art-listen h1{
+      font-size: 55px;
+      line-height: 55px;
+  }
+  ._art-enjoy span{
+      font-size: 12px;
+  }
+}
+@media(max-width: 576px){
+  ._art-enjoy h1, ._art-listen h1{
+      font-size: 50px;
+      line-height: 50px;
+  }
+  ._art-enjoy span{
+      font-size: 11px;
+  }
+}
+@media(max-width: 375px){
+  ._art-enjoy h1, ._art-listen h1{
+      font-size: 40px;
+      line-height: 40px;
+  }
+  ._art-enjoy span{
+      font-size: 10px;
+  }
+}
+
+
+
+/*# sourceMappingURL=main.css.map */
