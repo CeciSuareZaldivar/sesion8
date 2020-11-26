@@ -69,6 +69,18 @@ footer {
 .foot {
   display: flex;
 }
+.listas-pdm {
+  li {
+      a {
+          color: white !important;
+      }
+  }
+}
+.final-foo {
+  a {
+      color: gray;
+  }
+}
 .jNmUis {
   margin: 5px;
 }
